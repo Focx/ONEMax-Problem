@@ -1,0 +1,4 @@
+chromosomelength <- 10
+
+chromosome <- ga(type = "binary", fitness = f, nBits = chromosomelength)
+summary(chromosome)
